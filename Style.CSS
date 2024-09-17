@@ -2,12 +2,12 @@ body{
      
 }
 .Red-box{
-	width: 100px;
-	height: 100px;
-	background-color: red;
+    width: 100px;
+    height: 100px;
+    background-color: red;
     position: absolute;
     top: 0;
-    right: 0;
+    
 }
 .Green-box{
     width: 100px;
