@@ -10,22 +10,22 @@ body{
 
 }
 .Red-box{
-    width: 100px;
-    height: 100px;
-    background-color: red;
+	width: 400px;
+	height: 400px;
+	background-color: red;
+}
+.Blue-box{
+    width: 300px;
+    height: 300px;
+    background-color: Blue;
+}
+.Pink-box{
+    width: 200px;
+    height: 200px;
+    background-color:violet;
 }
 .Green-box{
     width: 100px;
     height: 100px;
     background-color:Green;
-}
-.Blue-box{
-    width: 100px;
-    height: 100px;
-    background-color: Blue;
-}
-.Pink-box{
-    width: 100px;
-    height: 100px;
-    background-color:violet;
 }
