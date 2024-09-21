@@ -1,37 +1,31 @@
 body{
-     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.Box{
+   position: absolute;
+
 }
 .Red-box{
     width: 100px;
     height: 100px;
     background-color: red;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    
 }
 .Green-box{
     width: 100px;
     height: 100px;
     background-color:Green;
-    position: absolute;
-    bottom: 0;
-    left:0;
 }
 .Blue-box{
     width: 100px;
     height: 100px;
     background-color: Blue;
-    position: absolute;
-    top: 0; 
-    left: 0;
 }
 .Pink-box{
     width: 100px;
     height: 100px;
     background-color:violet;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
