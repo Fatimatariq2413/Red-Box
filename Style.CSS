@@ -29,16 +29,12 @@ body {
 
 .Blue-box {
     border: 7px solid blue;
-    margin-left: 50px;
 }
 
 .Pink-box {
     border: 7px solid #ffaec9;
-    margin-top: 50px;
 }
 
 .Green-box {
     border: 7px solid green;
-    margin-left: 50px;
-    margin-top: 50px;
 }
