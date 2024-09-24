@@ -4,7 +4,20 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+.container {
+    display: flex;
+    grid-gap: 50px;
+}
+.container-RP{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 50px;
+}
+.container-BG{
+   display: flex;
+   flex-direction: column;
+   grid-gap: 50px; 
+}
 .Box {
     width: 300px;
     height: 200px;
