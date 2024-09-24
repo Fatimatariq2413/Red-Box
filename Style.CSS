@@ -6,17 +6,17 @@ body {
 }
 .container {
     display: flex;
-    grid-gap: 50px;
+    gap: 50px;
 }
 .container-RP{
     display: flex;
     flex-direction: column;
-    grid-gap: 50px;
+    gap: 50px;
 }
 .container-BG{
    display: flex;
    flex-direction: column;
-   grid-gap: 50px; 
+   gap: 50px; 
 }
 .Box {
     width: 300px;
