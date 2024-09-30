@@ -6,25 +6,21 @@ body {
 }
 .container {
     display: flex;
-    gap: 50px;
+    position: centre;
 }
-.container-RP{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-.container-BG{
-   display: flex;
-   flex-direction: column;
-   gap: 50px; 
+.container-RP, .container-BG {
+    position: centre;
+    width: 310px;
 }
 .Box {
     width: 300px;
     height: 200px;
+    position: relative;
 }
 
 .Red-box {
     border: 7px solid red;
+    right: 50px;
 }
 
 .Blue-box {
@@ -33,8 +29,11 @@ body {
 
 .Pink-box {
     border: 7px solid #ffaec9;
+    top: 50px;
+    right: 50px; 
 }
 
 .Green-box {
     border: 7px solid green;
+    top: 50px; 
 }
