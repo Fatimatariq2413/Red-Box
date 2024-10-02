@@ -38,17 +38,16 @@ body {
     top: 50px; 
 }
 @media (max-width: 768px) {
-    .Box {
-        max-width: 70%;
+    
+    .container-RP, .container-BG {
+        width: 100%; 
     }
-     
 }
+
 @media (max-width: 480px) {
-    .Box {
-        max-width: 100%;
-    }
-     .container {
-        flex-direction: column;
+    
+    .container-RP, .container-BG  {
+        flex-direction: column; 
     }
 }
 
