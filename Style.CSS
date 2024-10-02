@@ -45,6 +45,9 @@ body {
 }
 
 @media (max-width: 480px) {
+.Box {
+        max-width: 100%; /* Ensure boxes take full width on mobile */
+    }
     
     .container-RP, .container-BG  {
         flex-direction: column; 
