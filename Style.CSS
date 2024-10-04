@@ -38,19 +38,19 @@ body {
     top: 50px; 
 }
 
-/* Responsive adjustments for tablets */
+
 @media (max-width: 768px) {
     
     .container-RP, .container-BG {
-        width: 100%; /* Make sub-containers take full width on smaller screens */
+        width: 100%; 
     }
 }
 
-/* Responsive adjustments for mobile */
+
 @media (max-width: 480px) {
     .Box {
         max-width: 100%;
-        height: 150px; /* Decrease box height for mobile */
+        height: 150px; 
     }
 }
 
