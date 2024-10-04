@@ -37,12 +37,7 @@ body {
     border: 7px solid green;
     top: 50px; 
 }
-@media (max-width: 768px) {
-    
-    .container-RP, .container-BG {
-        width: 100%; 
-    }
-}
+
 /* Responsive adjustments for tablets */
 @media (max-width: 768px) {
     
@@ -59,13 +54,4 @@ body {
     }
 }
 
-@media (max-width: 480px) {
-.Box {
-        max-width: 100%; /* Ensure boxes take full width on mobile */
-    }
-    
-    .container-RP, .container-BG  {
-        flex-direction: column; 
-    }
-}
 
