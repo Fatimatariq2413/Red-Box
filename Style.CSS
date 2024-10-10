@@ -40,7 +40,7 @@ body {
 
 @media (max-width: 600px) {
     .container {
-        width: 160px; /* Adjust width for smaller screens */
+        width: 50px; /* Adjust width for smaller screens */
     }
     .box {
         width: 80px;
