@@ -35,9 +35,7 @@ body, html {
     border-color: green;
 }
 
-@media (max-width: 480px) {
-    .box {
-        width: 80px;
-        height: 80px;
-    }
+
+@media only screen and (min-width:300px) {
+
 }
