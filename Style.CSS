@@ -38,8 +38,8 @@ body, html {
 
 @media (max-width: 600px) {
     .container {
-        grid-template-columns: 1fr; /* Single column layout */
-        grid-template-rows: repeat(4, 130px); /* Adjust rows to fit all boxes */
+        grid-template-columns: 2fr; /* Single column layout */
+        grid-template-rows: repeat(2, 130px); /* Adjust rows to fit all boxes */
         justify-items: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
     }
