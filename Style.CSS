@@ -36,6 +36,11 @@ body, html {
 }
 
 
-@media (min-width:300px) {
-
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr; /* Single column layout */
+        grid-template-rows: repeat(4, 130px); /* Adjust rows to fit all boxes */
+        justify-items: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+    }
 }
